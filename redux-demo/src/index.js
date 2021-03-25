@@ -8,10 +8,10 @@ import ReduxCounter from './components/ReduxCounter';
 
 ReactDOM.render(
   <React.StrictMode>
-  <Provider>
-    {/* <StateCounter /> */}
-    <ReduxCounter />
-  </Provider>
+    <Provider>
+      {/* <StateCounter /> */}
+      <ReduxCounter />
+    </Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
